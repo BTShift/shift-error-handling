@@ -62,10 +62,14 @@ jobs:
         echo "version=$VERSION" >> $GITHUB_OUTPUT
         echo "📦 Extracted version: $VERSION"
 
+    - name: Build project
+      run: dotnet build ${{ env.PROJECT_PATH }} --configuration Release
+    
     - name: Pack
       run: |
         dotnet pack ${{ env.PROJECT_PATH }} \
           --configuration Release \
+          --no-build \
           --output ${{ env.PACKAGE_OUTPUT_PATH }}
 
     - name: Push to GitHub Packages
