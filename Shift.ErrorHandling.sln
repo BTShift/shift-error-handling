@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{77A1A6EE-C897-44E9-9EEC-D11B3E443DCA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shift.ErrorHandling.Infrastructure", "src\Shift.ErrorHandling.Infrastructure\Shift.ErrorHandling.Infrastructure.csproj", "{FB614FBC-D3A2-4C73-BD0F-E3F82551CDB4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{648A6743-9FA8-41FE-802A-23C3A1700F2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shift.ErrorHandling.Infrastructure.Tests", "tests\Shift.ErrorHandling.Infrastructure.Tests\Shift.ErrorHandling.Infrastructure.Tests.csproj", "{77A6E9A5-DAFF-4A1F-857E-21BB68498C6D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB614FBC-D3A2-4C73-BD0F-E3F82551CDB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB614FBC-D3A2-4C73-BD0F-E3F82551CDB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB614FBC-D3A2-4C73-BD0F-E3F82551CDB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB614FBC-D3A2-4C73-BD0F-E3F82551CDB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77A6E9A5-DAFF-4A1F-857E-21BB68498C6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77A6E9A5-DAFF-4A1F-857E-21BB68498C6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77A6E9A5-DAFF-4A1F-857E-21BB68498C6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77A6E9A5-DAFF-4A1F-857E-21BB68498C6D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FB614FBC-D3A2-4C73-BD0F-E3F82551CDB4} = {77A1A6EE-C897-44E9-9EEC-D11B3E443DCA}
+		{77A6E9A5-DAFF-4A1F-857E-21BB68498C6D} = {648A6743-9FA8-41FE-802A-23C3A1700F2E}
+	EndGlobalSection
+EndGlobal
